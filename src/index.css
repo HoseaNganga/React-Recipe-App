@@ -1,0 +1,30 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  position: relative;
+  overflow-x: "none";
+  background-color: rgb(243, 225, 255);
+}
+
+.favFoodImg {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 3px solid white;
+  padding: 0.1rem;
+}
+
+.favFoodContainer {
+  display: block;
+}
+
+.favFoodButton {
+  color: "inherit";
+}
+
+.favFoodContainer:hover .favFoodButton {
+  display: block;
+}
